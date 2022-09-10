@@ -21,6 +21,7 @@ spec:
             - --api-secret=
             - --subscribers=200
             - --num-per-second=1
+            --
       affinity:
           podAntiAffinity:
             requiredDuringSchedulingIgnoredDuringExecution:
