@@ -16,11 +16,11 @@ spec:
         - name: container
           image: livekit/load-tester:latest
           args:
-            - --url=wss://
-            - --api-key=
-            - --api-secret=
-            - --subscribers=200
-            - --num-per-second=1
+            - url=wss://livekit.beincampus.com
+            - api-key=APIiHtLJtzag8e3
+            - api-secret=BMkpjK5iGCZ66PIXJcH4qMzJSn6aq55jOAJiZavWThO
+            - subscribers=200
+            - num-per-second=1
       affinity:
           podAntiAffinity:
             requiredDuringSchedulingIgnoredDuringExecution:
